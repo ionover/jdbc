@@ -36,3 +36,4 @@ build/
 /.gitattributes
 /.gitignore
 /HELP.md
+/.mvn/wrapper/maven-wrapper.properties
