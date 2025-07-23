@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 @RestController
 @RequestMapping("/products/fetch-product")
-public class Controller {
+public class SqlController {
 
     private final Service service;
 
