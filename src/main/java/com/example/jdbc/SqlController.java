@@ -11,11 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/products/fetch-product")
 public class SqlController {
 
-    private final Service service;
+    private final ProductService productService;
 
     @GetMapping
     public String fetchProduct(@RequestParam String name) {
-
-        return service.handle(name);
+        return productService.handle(name);
     }
 }
